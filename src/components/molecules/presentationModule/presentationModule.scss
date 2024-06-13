@@ -1,0 +1,28 @@
+.presModule {
+    width: 100%;
+    padding: 48px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    &__img {
+        grid-area: 1 / 1 / 2 / 2;
+        padding-right: 32px;
+        margin-right: 12px;
+    }
+    &__infos {
+        grid-area: 1 / 2 / 2 / 3;
+        padding-left: 32px;
+        margin-left: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+        & ul {
+            list-style-image: url("../../../assets/bulletIcon.svg");
+            & li {
+                margin-bottom: 16px;
+            }
+        }
+    }
+}
