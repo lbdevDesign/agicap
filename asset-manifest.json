@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/agicap/static/css/main.ecd70d6f.css",
-    "main.js": "/agicap/static/js/main.53e77eb8.js",
+    "main.css": "/agicap/static/css/main.4174064a.css",
+    "main.js": "/agicap/static/js/main.f18e9094.js",
     "static/media/FR___Scenarios.svg": "/agicap/static/media/FR___Scenarios.cabef5e9d4073b7824db5627461b022b.svg",
     "static/media/FR___Consolidation.svg": "/agicap/static/media/FR___Consolidation.acb6c1a1c9a3248e96739ee2df871fe2.svg",
     "static/media/brand-logo.svg": "/agicap/static/media/brand-logo.caa6f596170402880ef10076d9deae5f.svg",
     "static/media/coins-hand_1.svg": "/agicap/static/media/coins-hand_1.6890522d561af781002f1551ad8a73ef.svg",
     "static/media/file-shield-02.svg": "/agicap/static/media/file-shield-02.19ec9fbdc60881637571340903ab7350.svg",
-    "static/media/bulletIcon.svg": "/agicap/static/media/bulletIcon.4b1c38f39619675b869636eca36be485.svg",
+    "static/media/bulletIcon.svg": "/agicap/static/media/bulletIcon.4b1c38f39619675b8696.svg",
     "index.html": "/agicap/index.html",
     "static/media/refresh-ccw-02_1.svg": "/agicap/static/media/refresh-ccw-02_1.01d0b661cff6f9a8e4e6c3a7c72138ed.svg",
-    "main.ecd70d6f.css.map": "/agicap/static/css/main.ecd70d6f.css.map",
-    "main.53e77eb8.js.map": "/agicap/static/js/main.53e77eb8.js.map"
+    "main.4174064a.css.map": "/agicap/static/css/main.4174064a.css.map",
+    "main.f18e9094.js.map": "/agicap/static/js/main.f18e9094.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecd70d6f.css",
-    "static/js/main.53e77eb8.js"
+    "static/css/main.4174064a.css",
+    "static/js/main.f18e9094.js"
   ]
 }
