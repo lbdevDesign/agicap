@@ -9,9 +9,11 @@
 @import "../components//organisms/header/header.scss";
 @import "../components/organisms/heroSection/heroSection.scss";
 @import "../components/organisms/features/features.scss";
+@import "../components/organisms/presentation/presentation.scss";
 
 //Molecules
 @import "../components/molecules/featureCard/featureCard.scss";
+@import "../components/molecules/presentationModule/presentationModule.scss";
 
 //Atoms
 @import "../components/atoms/primaryCta/primaryCta.scss";
