@@ -11,7 +11,9 @@ function Header() {
     return (
         <div className="header">
             <div className="header__navigation">
-                <img src={agicapLogo} className="header__navigation--logo" alt="logo Agicap" />
+                <a href="/">
+                    <img src={agicapLogo} className="header__navigation--logo" alt="logo Agicap" />
+                </a>
                 <nav className="header__navigation--nav">
                     <ul>
                         <li><a href="#">Solution</a></li>
