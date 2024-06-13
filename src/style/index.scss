@@ -1,0 +1,33 @@
+//Settings
+@import "./settings/color.scss";
+@import "./settings/fonts.scss";
+
+//Pages
+@import "../pages/App.scss";
+
+//Molecules
+@import "../components//organisms/header/header.scss";
+
+//Atoms
+@import "../components/atoms/primaryCta/primaryCta.scss";
+@import "../components/atoms/secondaryCta/secondaryCta.scss";
+@import "../components/atoms/textCta/textCta.scss";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+
