@@ -1,0 +1,36 @@
+.secondaryCta {
+    padding: 12px 12px 12px 20px;
+    border-radius: 0 8px 8px 8px;
+    border: solid 1px $primary;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition-duration: 200ms;
+    &:hover {
+        background-color: $primary;
+        .secondaryCta--text {
+            color: white;
+        }
+        .secondaryCta--icon { 
+            visibility: visible;
+            opacity: 100;
+            margin: 0 4px;
+            width: 16px;
+        }
+    }
+    &--text {
+        font-size: 16px;
+        color: $veryDark;
+        transition-duration: 200ms;
+    }
+    &--icon {
+        visibility: hidden;
+        color: white;
+        width: 0px;
+        margin: 0px;
+        opacity: 0;
+        transition-duration: 200ms;
+    }
+}
