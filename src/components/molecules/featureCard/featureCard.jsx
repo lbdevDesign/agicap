@@ -7,12 +7,14 @@ import coinHandSVG from '../../../assets/coins-hand_1.svg';
 
 function FeatureCard({ ...item }) {
 
+    // Map des noms d'images aux importations d'assets correspondants
     const imageMap = {
         "refresh-ccw-02_1.svg": refreshSVG,
         "file-shield-02.svg": fileShieldSVG,
         "coins-hand_1.svg": coinHandSVG
     };
 
+    // Sélection de l'image correspondante 
     const image = imageMap[item.img];
     
     return(

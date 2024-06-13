@@ -5,7 +5,6 @@ import PrimaryCta from "../../atoms/primaryCta/primaryCta";
 
 //Assets
 import agicapLogo from "../../../assets/brand-logo.svg";
-import bulletIcon from "../../../assets/bulletIcon.svg";
 
 function Header() {
     return (

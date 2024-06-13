@@ -9,13 +9,13 @@ import scenariosSVG from "../../../assets/FR___Scenarios.svg";
 
 function PresentationModule({ ...item }) {
 
-    console.log(item.img);
-
+    // Map des noms d'images aux importations d'assets correspondants
     const imageMap = {
         "FR___Consolidation.svg": consolidationSVG,
         "FR___Scénarios.svg": scenariosSVG
     };
 
+    // Sélection de l'image correspondante 
     const image = imageMap[item.img];
 
     return (
