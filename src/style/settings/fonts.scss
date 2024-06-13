@@ -23,6 +23,13 @@ h1 {
     color: $primary;
     line-height: 48px;
 }
+
+h3 {
+    font-size: $h3desktop;
+    font-family: $manrope;
+    color: $dark;
+    line-height: 32px;
+}
   
 body {
     color: $dark;

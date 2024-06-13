@@ -8,6 +8,10 @@
 //Organisms
 @import "../components//organisms/header/header.scss";
 @import "../components/organisms/heroSection/heroSection.scss";
+@import "../components/organisms/features/features.scss";
+
+//Molecules
+@import "../components/molecules/featureCard/featureCard.scss";
 
 //Atoms
 @import "../components/atoms/primaryCta/primaryCta.scss";
