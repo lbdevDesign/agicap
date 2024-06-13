@@ -19,6 +19,7 @@ function Presentation() {
             {data.map((item) => (
                 <PresentationModule 
                     key={item.id}
+                    position={item.position}
                     img={item.img}
                     title={item.title}
                     list={item.list}

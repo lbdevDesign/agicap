@@ -9,6 +9,8 @@ import scenariosSVG from "../../../assets/FR___Scenarios.svg";
 
 function PresentationModule({ ...item }) {
 
+    console.log(item.position);
+
     // Map des noms d'images aux importations d'assets correspondants
     const imageMap = {
         "FR___Consolidation.svg": consolidationSVG,
@@ -18,12 +20,15 @@ function PresentationModule({ ...item }) {
     // Sélection de l'image correspondante 
     const image = imageMap[item.img];
 
+    // Vérification si l'ID de l'élément est pair ou impair
+    const isEven = item.position % 2 === 0;
+
     return (
         <div className="presModule">
-            <div className="presModule__img">
+            <div className={`presModule__img ${isEven ? 'first' : 'second'}`}>
                 <img src={image} className="presModule__img--img" alt={item.alt} />
             </div>
-            <div className="presModule__infos">
+            <div className={`presModule__infos ${isEven ? 'second' : 'first'}`}>
                 <h3>{item.title}</h3>
                 <ul>
                     {item.list.map((item) => (
