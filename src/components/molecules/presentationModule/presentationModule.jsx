@@ -25,10 +25,10 @@ function PresentationModule({ ...item }) {
 
     return (
         <div className={`presModule ${isEven ? 'background' : ''}`}>
-            <div className={`${isEven ? 'first' : 'second'}`}>
+            <div className={`${isEven ? 'second' : 'first'}`}>
                 <img src={image} alt={item.alt} />
             </div>
-            <div className={`presModule__infos ${isEven ? 'second' : 'first'}`}>
+            <div className={`presModule__infos ${isEven ? 'first' : 'second'}`}>
                 <h3>{item.title}</h3>
                 <ul>
                     {item.list.map((item) => (
