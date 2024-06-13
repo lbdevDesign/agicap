@@ -1,0 +1,52 @@
+.header {
+    width: 100vw;
+    padding: 20px 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__navigation {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        &--nav {
+            & ul {
+                list-style: none;
+                display: flex;
+                gap: 12px;
+                & a {
+                    color: $veryDark;
+                    font-weight: $regular;
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+    &__cta {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        &--languages {
+            color: $veryDark;
+            font-size: 16px;
+            border: none;
+            &:hover {
+                color: $primary;
+            }
+        }
+        &--connection {
+            color: $veryDark;
+            font-size: 16px;
+            border: none;
+            background-color: transparent;
+            &:hover {
+                color: $primary;
+                border: none;
+            }
+            &:active {
+                border: none;
+            }
+        }
+    }
+}
