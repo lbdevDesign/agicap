@@ -24,9 +24,9 @@ function PresentationModule({ ...item }) {
     const isEven = item.position % 2 === 0;
 
     return (
-        <div className="presModule">
-            <div className={`presModule__img ${isEven ? 'first' : 'second'}`}>
-                <img src={image} className="presModule__img--img" alt={item.alt} />
+        <div className={`presModule ${isEven ? 'background' : ''}`}>
+            <div className={`${isEven ? 'first' : 'second'}`}>
+                <img src={image} alt={item.alt} />
             </div>
             <div className={`presModule__infos ${isEven ? 'second' : 'first'}`}>
                 <h3>{item.title}</h3>

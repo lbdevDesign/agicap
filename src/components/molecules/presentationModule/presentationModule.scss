@@ -5,15 +5,15 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
-    &__img {
-        padding-left: 32px;
-    }
     &__infos {
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding-left: 32px;
         gap: 32px;
+        &__img {
+            text-align: center;
+        }
         & ul {
             list-style-image: url("../../../assets/bulletIcon.svg");
             & li {
@@ -25,10 +25,20 @@
 
 .first {
     grid-area: 1 / 1 / 2 / 2;
-    margin-right: 12px;
 }
 
 .second {
     grid-area: 1 / 2 / 2 / 3;
-    margin-left: 12px;
+    display: grid;
+    & img {
+        justify-self: right;
+    }
+}
+
+.background {
+    box-sizing:border-box;
+    background-color: #F8F8FA;
+    width: 100vw;
+    background-position: center;
+    padding: 20px calc(50vw - 657px);
 }
