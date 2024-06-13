@@ -1,0 +1,28 @@
+.hero {
+    width: 100vw;
+    padding: 48px 72px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    &__infos {
+        grid-area: 1 / 1 / 2 / 2;
+        padding: 0 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+        &--cta {
+            display: flex;
+            gap: 24px;
+        }
+    }
+    &__img {
+        grid-area: 1 / 2 / 2 / 3;
+        padding: 0 12px;
+        text-align: right;
+        &--img {
+            width: 98%;
+        }
+    }
+}

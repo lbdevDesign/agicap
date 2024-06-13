@@ -5,8 +5,9 @@
 //Pages
 @import "../pages/App.scss";
 
-//Molecules
+//Organisms
 @import "../components//organisms/header/header.scss";
+@import "../components/organisms/heroSection/heroSection.scss";
 
 //Atoms
 @import "../components/atoms/primaryCta/primaryCta.scss";
