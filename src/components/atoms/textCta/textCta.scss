@@ -1,0 +1,33 @@
+.textCta {
+    border: none;
+    padding: 0 0 4px 0;
+    border-bottom: solid 1px white;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition-duration: 200ms;
+    &:hover {
+        border-bottom: solid 1px $veryDark;
+        .textCta--icon { 
+            visibility: visible;
+            opacity: 100;
+            margin: 0 4px;
+            width: 16px;
+        }
+    }
+    &--text {
+        font-size: 16px;
+        font-weight: $semiBold;
+        color: $veryDark;
+    }
+    &--icon {
+        visibility: hidden;
+        color: $veryDark;
+        width: 0px;
+        margin: 0px;
+        opacity: 0;
+        transition-duration: 200ms;
+    }
+}
