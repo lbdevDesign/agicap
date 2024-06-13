@@ -1,5 +1,6 @@
 import React from "react";
 
+//Assets
 import fileShieldSVG from '../../../assets/file-shield-02.svg';
 import refreshSVG from '../../../assets/refresh-ccw-02_1.svg';
 import coinHandSVG from '../../../assets/coins-hand_1.svg';
