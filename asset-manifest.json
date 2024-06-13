@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/agicap/static/css/main.7213e1ff.css",
+    "main.css": "/agicap/static/css/main.a0aefa54.css",
     "main.js": "/agicap/static/js/main.53e77eb8.js",
     "static/media/FR___Scenarios.svg": "/agicap/static/media/FR___Scenarios.cabef5e9d4073b7824db5627461b022b.svg",
     "static/media/FR___Consolidation.svg": "/agicap/static/media/FR___Consolidation.acb6c1a1c9a3248e96739ee2df871fe2.svg",
@@ -10,11 +10,11 @@
     "static/media/bulletIcon.svg": "/agicap/static/media/bulletIcon.4b1c38f39619675b869636eca36be485.svg",
     "index.html": "/agicap/index.html",
     "static/media/refresh-ccw-02_1.svg": "/agicap/static/media/refresh-ccw-02_1.01d0b661cff6f9a8e4e6c3a7c72138ed.svg",
-    "main.7213e1ff.css.map": "/agicap/static/css/main.7213e1ff.css.map",
+    "main.a0aefa54.css.map": "/agicap/static/css/main.a0aefa54.css.map",
     "main.53e77eb8.js.map": "/agicap/static/js/main.53e77eb8.js.map"
   },
   "entrypoints": [
-    "static/css/main.7213e1ff.css",
+    "static/css/main.a0aefa54.css",
     "static/js/main.53e77eb8.js"
   ]
 }
