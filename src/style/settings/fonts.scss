@@ -18,8 +18,10 @@ $h2desktop: 28px;
 $h3desktop: 24px;
 
 h1 {
+    font-size: $h1desktop;
     font-family: $manrope;
     color: $primary;
+    line-height: 48px;
 }
   
 body {
@@ -27,6 +29,7 @@ body {
     margin: 0;
     font-family: $roboto;
     font-weight: $light;
+    line-height: 27px;
 }
 
 p {
