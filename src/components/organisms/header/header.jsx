@@ -31,7 +31,7 @@ function Header() {
                     <option value="de">Allemand</option>
                 </select>
                 <button className="header__cta--connection">Connectez-vous</button>
-                <PrimaryCta text="Essayer gratuitement" />
+                <PrimaryCta text="Essayer gratuitement" size="small" />
             </div>
         </div>
     )
