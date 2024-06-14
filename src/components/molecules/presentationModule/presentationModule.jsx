@@ -6,6 +6,9 @@ import TextCta from "../../atoms/textCta/textCta";
 //Asstets
 import consolidationSVG from "../../../assets/FR___Consolidation.svg";
 import scenariosSVG from "../../../assets/FR___Scenarios.svg";
+import lSVG from "../../../assets/P_L.svg";
+import debtSVG from "../../../assets/FR___Debt_management.svg";
+import customSVG from "../../../assets/FR___Debt_management.svg";
 
 function PresentationModule({ ...item }) {
 
@@ -14,7 +17,10 @@ function PresentationModule({ ...item }) {
     // Map des noms d'images aux importations d'assets correspondants
     const imageMap = {
         "FR___Consolidation.svg": consolidationSVG,
-        "FR___Scénarios.svg": scenariosSVG
+        "FR___Scénarios.svg": scenariosSVG,
+        "P_L.svg": lSVG,
+        "FR___Debt_management.svg": debtSVG,
+        "FR___Custom_dashboards.svg": customSVG,
     };
 
     // Sélection de l'image correspondante 

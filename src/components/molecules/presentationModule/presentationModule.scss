@@ -1,6 +1,6 @@
 .presModule {
     width: 100%;
-    padding: 48px 0;
+    padding: 72px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -40,5 +40,5 @@
     background-color: #F8F8FA;
     width: 100vw;
     background-position: center;
-    padding: 20px calc(50vw - 657px);
+    padding: 72px calc(50vw - 657px);
 }
