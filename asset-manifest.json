@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/agicap/static/css/main.e6ff1194.css",
-    "main.js": "/agicap/static/js/main.f18e9094.js",
+    "main.css": "/agicap/static/css/main.b9d96d22.css",
+    "main.js": "/agicap/static/js/main.1b2f09f3.js",
     "static/media/FR___Scenarios.svg": "/agicap/static/media/FR___Scenarios.cabef5e9d4073b7824db5627461b022b.svg",
+    "static/media/FR___Debt_management.svg": "/agicap/static/media/FR___Debt_management.f039dfbedb1bd951a0202ddfbd7a7252.svg",
+    "static/media/P_L.svg": "/agicap/static/media/P_L.09d407f81a118f39ac6c9012de8b403c.svg",
     "static/media/FR___Consolidation.svg": "/agicap/static/media/FR___Consolidation.acb6c1a1c9a3248e96739ee2df871fe2.svg",
     "static/media/brand-logo.svg": "/agicap/static/media/brand-logo.caa6f596170402880ef10076d9deae5f.svg",
     "static/media/coins-hand_1.svg": "/agicap/static/media/coins-hand_1.6890522d561af781002f1551ad8a73ef.svg",
@@ -10,11 +12,11 @@
     "static/media/bulletIcon.svg": "/agicap/static/media/bulletIcon.4b1c38f39619675b8696.svg",
     "index.html": "/agicap/index.html",
     "static/media/refresh-ccw-02_1.svg": "/agicap/static/media/refresh-ccw-02_1.01d0b661cff6f9a8e4e6c3a7c72138ed.svg",
-    "main.e6ff1194.css.map": "/agicap/static/css/main.e6ff1194.css.map",
-    "main.f18e9094.js.map": "/agicap/static/js/main.f18e9094.js.map"
+    "main.b9d96d22.css.map": "/agicap/static/css/main.b9d96d22.css.map",
+    "main.1b2f09f3.js.map": "/agicap/static/js/main.1b2f09f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6ff1194.css",
-    "static/js/main.f18e9094.js"
+    "static/css/main.b9d96d22.css",
+    "static/js/main.1b2f09f3.js"
   ]
 }
